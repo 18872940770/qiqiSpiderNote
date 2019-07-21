@@ -1,0 +1,8 @@
+
+# scrapy创建项目
+scrapy startproject LaGouSpider
+# scrapy生成爬虫
+scrapy genspider lagouspider  "lagou.com"
+# 启动scrapy爬虫
+scrapy runspider lagouspider.py
+
